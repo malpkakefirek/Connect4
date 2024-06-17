@@ -154,14 +154,12 @@ void play_game(int sockfd, int is_server) {
             if (check_winner(player)) {
                 printf(WON_TEXT);
                 printf("\n");
-                send(sockfd, "WIN", 3, 0);
                 break;
             }
 
             if (check_draw()) {
                 printf("You Drew :o");
                 printf("\n");
-                send(sockfd, "DRW", 3, 0);
                 break;
             }
         } else {
