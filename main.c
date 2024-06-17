@@ -6,8 +6,6 @@
 
 #define ROWS 6
 #define COLS 7
-// #define ROWS 2
-// #define COLS 3
 #define MAXLINE 1024
 #define RED_COIN "\e[31m●\e[0m"
 #define RED_TEXT "\e[31mRED\e[0m"
